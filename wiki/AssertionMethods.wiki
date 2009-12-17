@@ -1,6 +1,8 @@
 #summary The assertion methods defined by Ext.ux.UnitTest()
 #labels Featured
 
+<wiki:toc max_depth="3" />
+
 = Boolean Tests =
 
 === assertTrue(inputVal, errorMsg) ===
