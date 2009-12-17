@@ -552,7 +552,7 @@ Ext.ux.NewUnitTest = function(config) {
 Ext.ux.NewUnitTest({
     testName: 'Test assertEquals() method.',
     testGroup: 'Ext.ux.UnitTest.Test',
-    testFunction: function(testObj) { 
+    testFunction: function() { 
         var stringVariable = '1';
         var integerVariable = 1;
         var floatingVariable = 1.00;
@@ -580,7 +580,7 @@ Ext.ux.NewUnitTest({
 Ext.ux.NewUnitTest({
     testName: 'Test assertNotEquals() method.',
     testGroup: 'Ext.ux.UnitTest.Test',
-    testFunction: function(testObj) { 
+    testFunction: function() { 
         var stringVariable = '1';
         var integerVariable = 1;
         var floatingVariable = 1.00;
@@ -608,7 +608,7 @@ Ext.ux.NewUnitTest({
 Ext.ux.NewUnitTest({
     testName: 'Test assertUndefinedOrNull() method.',
     testGroup: 'Ext.ux.UnitTest.Test',
-    testFunction: function(testObj) {
+    testFunction: function() {
         var nullVariable = null;
 
         this.assertUndefinedOrNull(
@@ -621,7 +621,7 @@ Ext.ux.NewUnitTest({
 Ext.ux.NewUnitTest({
     testName: 'Test assertNotUndefinedOrNull() method.',
     testGroup: 'Ext.ux.UnitTest.Test',
-    testFunction: function(testObj) {
+    testFunction: function() {
         var stringVariable = '1';
 
         this.assertNotUndefinedOrNull(
@@ -634,7 +634,7 @@ Ext.ux.NewUnitTest({
 Ext.ux.NewUnitTest({
     testName: 'Test assertContains() method.',
     testGroup: 'Ext.ux.UnitTest.Test',
-    testFunction: function(testObj) {
+    testFunction: function() {
         var stringOne = 'GFX International';
         var stringTwo = 'GFX';
 
@@ -649,7 +649,7 @@ Ext.ux.NewUnitTest({
 Ext.ux.NewUnitTest({
     testName: 'Test assertNotContains() method.',
     testGroup: 'Ext.ux.UnitTest.Test',
-    testFunction: function(testObj) {
+    testFunction: function() {
         var stringOne = 'GFX International';
         var stringTwo = 'GFX';
 
@@ -664,7 +664,7 @@ Ext.ux.NewUnitTest({
 Ext.ux.NewUnitTest({
     testName: 'Test assertTrue() method.',
     testGroup: 'Ext.ux.UnitTest.Test',
-    testFunction: function(testObj) {
+    testFunction: function() {
         this.assertTrue(
             true,
             'assertTrue() is not working correctly.'
@@ -675,7 +675,7 @@ Ext.ux.NewUnitTest({
 Ext.ux.NewUnitTest({
     testName: 'Test assertFalse() method.',
     testGroup: 'Ext.ux.UnitTest.Test',
-    testFunction: function(testObj) {
+    testFunction: function() {
         
         this.assertFalse(
             false,
@@ -687,7 +687,7 @@ Ext.ux.NewUnitTest({
 Ext.ux.NewUnitTest({
     testName: 'Test assertIsGuid() method.',
     testGroup: 'Ext.ux.UnitTest.Test',
-    testFunction: function(testObj) {
+    testFunction: function() {
         
         this.assertIsGuid(
             '00000000-0000-0000-0000-000000000000',
